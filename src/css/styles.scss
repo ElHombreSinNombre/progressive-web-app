@@ -1,0 +1,42 @@
+//GLOBAL SAAS
+$color-black: rgba(0, 0, 0, 1.0);
+.toasted.primary {
+  .action {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.max {
+  font-size: 5em;
+  color: $color-black !important;
+}
+
+.application {
+  .theme--light {
+    background-image: url("../src/assets/year.png") !important;
+    background-repeat: repeat !important;
+  }
+}
+
+.list {
+  padding: inherit !important;
+}
+
+.edit {
+  color: $color-black !important
+}
+
+.flex {
+  border: 1px solid $color-black
+}
+
+.g-recaptcha {
+  div {
+    margin: 0 auto;
+  }
+}
+
+.login {
+  color: $color-black !important;
+  padding:0.5em
+}

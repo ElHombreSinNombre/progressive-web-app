@@ -1,0 +1,5 @@
+node_modules/
+dist/
+
+# We must create /firebase directory in /src. A firebase.js with connection data will be found.
+src/firebase
