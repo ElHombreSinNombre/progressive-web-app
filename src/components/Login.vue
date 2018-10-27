@@ -3,8 +3,8 @@
     <v-layout align-end justify-end>
       <v-tooltip bottom align-end justify-end>
         <span slot="activator">
-          <v-btn flat @click.native="snackbar = true">
-            <v-icon class="login">info</v-icon>
+          <v-btn flat icon @click.native="snackbar = true">
+            <v-icon>info</v-icon>
           </v-btn>
         </span>
         <span>Info</span>

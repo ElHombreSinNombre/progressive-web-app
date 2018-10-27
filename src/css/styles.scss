@@ -11,11 +11,9 @@ $color-black: rgba(0, 0, 0, 1.0);
   color: $color-black !important;
 }
 
-.application {
-  .theme--light {
+.application--wrap {
     background-image: url("../src/assets/year.png") !important;
     background-repeat: repeat !important;
-  }
 }
 
 .list {
@@ -34,9 +32,4 @@ $color-black: rgba(0, 0, 0, 1.0);
   div {
     margin: 0 auto;
   }
-}
-
-.login {
-  color: $color-black !important;
-  padding:0.5em
 }

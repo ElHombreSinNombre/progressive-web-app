@@ -13,4 +13,17 @@
   -  **[SASS Loader](https://www.npmjs.com/package/sass-loader)**
   -  **[Node SASS](https://www.npmjs.com/package/node-sass)**
   
+# How to use
 
+1. In _'src'_ create _'firebase'_ folder. Inside this folder create _'firebase.js'_. Add **[Firebase](https://firebase.google.com)** connection data in this file.
+
+2. In **[Firebase](https://firebase.google.com)**  add email authentication option. Then add email and a password. Use this data to do login.
+
+    * In login we can read the email is _'test@gmail.com'_ and password _'vuecrud'_. Obviously if we had a different data in our database, login will use different email and password.
+
+3. In _'PWA'_ folder locate _'user.json'_ file. Import this to **[Firebase](https://firebase.google.com)**  database.
+
+4. Open terminal and move to _'PWA'_ folder. Then run:
+
+    * _npm install_
+    * _npm run dev_

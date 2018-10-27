@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Toasted from 'vue-toasted';
+Vue.use(Toasted)
 import {
   Vuetify,
   VApp,
@@ -37,12 +38,10 @@ Vue.use(Vuetify, {
     vList,
     vDivider,
     vNavigationDrawer,
-    transitions,
     Toasted,
     vSubheader,
     vSnackbar,
     transitions,
-
   },
   theme: {
     primary: '#1976D2',
