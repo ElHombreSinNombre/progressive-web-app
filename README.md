@@ -21,7 +21,7 @@
 
     * In login we can read the email is _'test@gmail.com'_ and password _'vuecrud'_. Obviously if we had a different data in our database, login will use different email and password.
 
-3. In _'PWA'_ folder locate _'user.json'_ file. Import this to **[Firebase](https://firebase.google.com)**  database.
+3. In root folder locate _'user.json'_ file. Import this to **[Firebase](https://firebase.google.com)**  database.
 
 4. Open terminal and move to _'PWA'_ folder. Then run:
 
