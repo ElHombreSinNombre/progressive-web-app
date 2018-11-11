@@ -23,7 +23,7 @@
 
 3. In root folder locate _'user.json'_ file. Import this to **[Firebase](https://firebase.google.com)**  database.
 
-4. Open terminal and move to _'PWA'_ folder. Then run:
+4. Open terminal and move to root folder. Then run:
 
     * _npm install_
     * _npm run dev_
